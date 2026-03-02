@@ -24,6 +24,10 @@ Módulo para Foundry VTT (v13) focado em **cenas de diálogo ambiente** com fala
 
 ## Instalação
 
+`https://raw.githubusercontent.com/Krampus-update/ambient-dialogue/refs/heads/main/module.json`
+
+### OU
+
 1. Copie a pasta `ambient-dialogue` para:
    - `FoundryVTT/Data/modules/ambient-dialogue`
 2. Ative o módulo no mundo.
