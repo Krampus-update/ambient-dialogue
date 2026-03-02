@@ -22,13 +22,6 @@
         "type": "module",
         "compatibility": {}
       }
-    ],
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      }
     ]
   },
   "description": "Sistema modular de conversas ambiente com chat bubbles.",
