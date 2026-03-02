@@ -1,0 +1,42 @@
+{
+  "id": "ambient-dialogue",
+  "title": "Ambient Dialogue",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Krampus",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Sistema modular de conversas ambiente com chat bubbles.",
+  "scripts": [
+    "scripts/main.js",
+    "scripts/api.js",
+    "scripts/manager.js",
+    "scripts/app.js"
+  ],
+  "styles": ["styles/style.css"]
+}

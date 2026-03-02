@@ -1,0 +1,155 @@
+.ambient-dialogue-app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  max-height: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.ambient-dialogue-app button {
+  min-height: 28px;
+  width: auto !important;
+  flex: 0 0 auto;
+  padding: 2px 8px;
+}
+
+.ad-toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ad-recording-status {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.ad-folder {
+  border: 1px solid var(--color-border-light-2);
+  border-radius: 8px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--color-bg-option) 80%, transparent);
+}
+
+.ad-folder-header,
+.ad-scene-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.ad-folder-header h3,
+.ad-scene-header h4 {
+  margin: 0;
+}
+
+.ad-scene-header {
+  flex-wrap: wrap;
+}
+
+.ad-scene-header h4 {
+  margin-right: auto;
+}
+
+.ad-folder-body,
+.ad-scene-body {
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ad-scene-npcs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  padding: 0 10px 8px 10px;
+}
+
+.ad-npc-chip {
+  border: 1px solid var(--color-border-light-2);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ad-npc-chip button {
+  min-height: 20px;
+  font-size: 11px;
+  padding: 0 6px;
+}
+
+.ad-npc-chip small {
+  opacity: 0.8;
+}
+
+.ad-folder-body.is-collapsed,
+.ad-scene-body.is-collapsed {
+  display: none;
+}
+
+.ad-dropzone {
+  border: 1px dashed var(--color-border-highlight);
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.ad-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ad-message-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--color-border-light-2);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.ad-message-main {
+  word-break: break-word;
+}
+
+.ad-move-tag {
+  display: inline-block;
+  margin-left: 8px;
+  border: 1px solid var(--color-border-light-2);
+  border-radius: 999px;
+  padding: 1px 6px;
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+.ad-message-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.ad-empty {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.ad-help {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+#ambient-dialogue .window-content {
+  overflow: hidden;
+  padding: 8px;
+}
